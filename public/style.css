@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'minecraft-regular';
+    src: url('/fonts/minecraft-regular.otf');
+}
+@font-face {
+    font-family: 'minecraft-evening';
+    src: url('/fonts/minecraft-evening.ttf');
+}
+body {
+    /* background-color: rgb(54, 145, 180); */
+    background-image: url("/images/game-bg.png");
+    background-color: rgba(255,255,255,0.1);
+    background-blend-mode: lighten;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    /* background-image: url("/images/game-bg.png"); */
+    font-family: 'minecraft-regular';
+    /* opacity: 50%; */
+    font-size: 30px;
+    color: beige;
+    /* display: flex;
+    flex-direction: row; */
+    /* margin: auto; */
+    position: fixed;
+    /* width: 70px; */
+    height: 700px;
+    top: 30px;
+    left: 1100px; 
+    border: 3px solid #73AD21;
+    /* padding: 10px; */
+    align-items: center;
+    /* justify-content: center; */
+    min-width: 280px;
+    /* background-color: #843f8a; */
+    /* text-align: center; */
+}
+.sub-container{
+    position: fixed;
+    /* border: 3px solid #73AD21; */
+    top: 120px;
+    left: 1110px;
+    min-width: 260px;
+}
+#restart-button {
+    display: none;
+    position: fixed;
+    /* border: 3px solid #dfdfdf; */
+    top: 580px;
+    left: 1180px;
+    min-width: 50px;
+}
+
+#back-to-lobby-button{
+    position: fixed;
+    /* border: 3px solid #dfdfdf; */
+    top: 650px;
+    left: 1180px;
+    min-width: 50px;
+}
+.header {
+    font-family: 'minecraft-evening';
+    font-size: 80px;
+    position: fixed;
+    left: 1120px;
+    /* top: ; */
+}
+/* .score-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: right;
+} */
+#player1-name{
+    position: fixed;
+    top: 150px;
+    left: 1120px;
+}
+#heart1{
+    position: fixed;
+    top: 185px;
+    left: 1120px;
+}
+#player1-lives{
+    position: fixed;
+    top: 200px;
+    left: 1200px;
+}
+#feather-1{
+    /* display: none; */
+    position: fixed;
+    top: 250px;
+    left: 1120px;
+}
+#player1-score{
+    /* display: none; */
+    position: fixed;
+    top: 260px;
+    left: 1200px;
+}
+#player2-name{
+    position: fixed;
+    top: 400px;
+    left: 1120px;
+}
+#heart2{
+    position: fixed;
+    top: 435px;
+    left: 1120px;
+}
+#player2-lives{
+    position: fixed;
+    top: 450px;
+    left: 1200px;
+}
+#feather-2{
+    /* display: none; */
+    position: fixed;
+    top: 500px;
+    left: 1120px;
+}
+#player2-score{
+    /* display: none; */
+    position: fixed;
+    top: 510px;
+    left: 1200px;
+}
+#defaultCanvas0 {
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 1024px;
+    height: 768px;
+    /* position: fixed; */
+    left: 50px;
+    right: 50px;
+    /* top: 10vh; */
+}
+.button {
+    border: none;
+    color: beige;
+    /* padding: 1.5vh 1.5vw; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    /* margin: 5vh 5vw; */
+    cursor: pointer;
+    background-color: #212121;
+    opacity: 0.8;
+    border: 0.15vw solid beige;
+    border-radius: 1.5vw;
+    position: fixed;
+    /* top: 18vh; */
+}
+#back-to-lobby-button:hover{
+    background-color: beige;
+    color: black;
+}
+#restart-button:hover{
+    background-color: beige;
+    color: black;
+}
+#back-to-lobby-button{
+    font-size: 2vw;
+    font-family: 'minecraft-regular';
+    text-align: center;
+    width: 10vw;
+    height: 6vh;
+}
+#restart-button{
+    font-size: 1.5vw;
+    font-family: 'minecraft-regular';
+    text-align: center;
+    width: 10vw;
+    height: 6vh;
+}
